@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#demo {
+    color: rgb(241, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1000%;
+    margin-left: 15%;
+}
+
+#demo:hover {
+    color: red;
+    transition: 2s;
+    box-shadow: 0 0 60px 30px #fff, /* inner white */
+    0 0 100px 60px #f0f, /* middle magenta */
+    0 0 140px 90px #0ff;
+    /* outer cyan */
+}
+
+h1 {
+    margin-left: 45%;
+    text-decoration: none;
+    color: rgb(241, 240, 240);
+}
+
+.image img {
+    margin-left: 45%;
+    margin-top: 5%;
+    height: 250px;
+}
+
+.image img:hover {
+    transform: scale(1.5);
+    transition: 1s;
+    box-shadow: 0 0 60px 30px #fff, /* inner white */
+    0 0 100px 60px #f0f, /* middle magenta */
+    0 0 140px 90px #0ff;
+}
